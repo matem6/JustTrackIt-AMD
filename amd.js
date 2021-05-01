@@ -2,7 +2,6 @@ function appendAddToCartButton() {
     const productPage = document.getElementById("product-details-info");
     if (productPage == null) {
         const elements = Array.from(document.getElementsByClassName("view view-shop-product-search view-id-shop_product_search view-display-id-direct-buy-catalog")[0].getElementsByClassName("views-row"));
-
         Array.from(elements).forEach((item) => {
             if (item.getElementsByClassName("btn-shopping-cart btn-shopping-neutral use-ajax").length == 0) {
                 var itemId = item.getElementsByClassName("shop-image-link")[0].getAttribute("href").replace(/^\D+/g, '').split("/")[0];
