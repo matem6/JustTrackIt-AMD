@@ -29,7 +29,6 @@ function appendAddToCartButton() {
             }
         }
     }
-
     Drupal.ajax.bindAjaxLinks(document);
     return productPage;
 }
