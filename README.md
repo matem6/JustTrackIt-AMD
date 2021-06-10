@@ -15,7 +15,7 @@ Ulteriori informazioni sui software open source senza licenza:
 ## Additional licensing information
 Although it is not necessary to specify it, we reiterate that:
 
-The software is released voluntarily without any specific license ("LICENSE" file). All rights to the software are reserved and of their respective owners. Any unauthorized use is punished by current legislation.
+The software is released voluntarily without any specific license ("LICENSE" file). **All rights to the software are reserved and of their respective owners.** Any unauthorized use is punished by current legislation.
 
 Only the fork of the code is allowed but not the modification as specified by the ToS of GitHub: [https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository)
 
