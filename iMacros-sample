@@ -1,0 +1,16 @@
+VERSION BUILD=1011 RECORDER=CR
+FRAME F=6
+TAG POS=1 TYPE=INPUT:TEL ATTR=ID:ccNumber CONTENT=1111222233334444
+FRAME F=7
+TAG POS=1 TYPE=INPUT:TEL ATTR=ID:ccExpiry CONTENT=01/23
+FRAME F=8
+TAG POS=1 TYPE=INPUT:TEL ATTR=ID:ccCVV CONTENT=123
+FRAME F=0
+TAG POS=1 TYPE=INPUT:EMAIL FORM=ID:amd-shop-checkout-payment-form ATTR=ID:edit-email CONTENT=email@gmail.com
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:amd-shop-checkout-payment-form ATTR=ID:edit-phone-number CONTENT=+39333998877
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:amd-shop-checkout-payment-form ATTR=ID:edit-first-name CONTENT=Mario
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:amd-shop-checkout-payment-form ATTR=ID:edit-last-name CONTENT=Rossi
+TAG POS=1 TYPE=SELECT FORM=ID:amd-shop-checkout-payment-form ATTR=ID:edit-shop-country CONTENT=%IT
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:amd-shop-checkout-payment-form ATTR=ID:edit-address-line CONTENT=Via<SP>Roma<SP>1
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:amd-shop-checkout-payment-form ATTR=ID:edit-city CONTENT=Roma
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:amd-shop-checkout-payment-form ATTR=ID:edit-postal-code CONTENT=00100
